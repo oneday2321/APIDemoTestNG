@@ -6,10 +6,10 @@ public class AnnotationsTest {
     /*
     * 运行顺序
     * @BeforeMethod \ @AfterMethod  在每一个标记@test()方法得之前与之后运行
-    * @BeforeTest \ @AfterTest
-    * @BeforeSuite \ @AfterSuite
-    * @BeforeClass \ @AfterClass
-    * @BeforeGroup \ @AfterGroup
+    * @BeforeTest   \ @AfterTest
+    * @BeforeSuite  \ @AfterSuite
+    * @BeforeClass  \ @AfterClass
+    * @BeforeGroup  \ @AfterGroup
     * 参数传递
     * @DataProvider
     * @Parameters
