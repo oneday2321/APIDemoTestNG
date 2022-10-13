@@ -4,11 +4,14 @@
     <inspection_tool class="groupsTestNG" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="groups">
         <value>
-          <list size="4">
+          <list size="7">
             <item index="0" class="java.lang.String" itemvalue="data" />
             <item index="1" class="java.lang.String" itemvalue="data1" />
             <item index="2" class="java.lang.String" itemvalue="dataA" />
             <item index="3" class="java.lang.String" itemvalue="dataB" />
+            <item index="4" class="java.lang.String" itemvalue="da1" />
+            <item index="5" class="java.lang.String" itemvalue="da2" />
+            <item index="6" class="java.lang.String" itemvalue="da3" />
           </list>
         </value>
       </option>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SuiteName1" >
+<!--    <test name="testName1">-->
+<!--        <packages>-->
+<!--            <package name="com.apiTestng.test1.*" />-->
+<!--        </packages>-->
+<!--    </test>-->
+<!--    <test name="testName2">-->
+<!--        <packages>-->
+<!--            <package name="com.apiTestng.test2" />-->
+<!--        </packages>-->
+<!--    </test>-->
+<!--    <test name="testName3">-->
+<!--        <packages>-->
+<!--            <package name="com.apiTestng.test3" />-->
+<!--        </packages>-->
+<!--    </test>-->
+
+        <test name="test">
+            <groups>
+                    <run>
+                        <include name="da2" />
+                    </run>
+            </groups>
+
+            <classes>
+                <class name="cn.testNG.test1" />
+            </classes>
+        </test>
+        <test name="test1">
+            <groups>
+                <run>
+                    <include name="da1" />
+                </run>
+            </groups>
+            <classes>
+                <class name="cn.testNG.test1" />
+            </classes>
+        </test>
+</suite>
